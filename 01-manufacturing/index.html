@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>汐見精工（架空企業）｜Web制作ポートフォリオ作品</title>
+  <meta name="description" content="Web制作のポートフォリオ用に制作した、架空の精密切削加工メーカー「汐見精工」の1ページサイト。実在の企業ではありません。">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700;800&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+
+  <header class="header">
+    <a class="logo" href="#top" aria-label="汐見精工（架空企業・仮名） トップ">
+      <span class="logo__mark" aria-hidden="true"></span>
+      <span class="logo__ja">汐見精工</span>
+      <span class="logo__en">SHIOMI SEIKO</span>
+    </a>
+    <nav class="nav" aria-label="グローバルナビゲーション">
+      <ul>
+        <li><a href="#technology">加工技術</a></li>
+        <li><a href="#works">加工事例</a></li>
+        <li><a href="#quality">設備・品質管理</a></li>
+        <li><a href="#process">はじめての方へ</a></li>
+      </ul>
+      <a class="btn btn--cta btn--sm nav__cta" href="#contact">ご相談について<span class="btn__arrow" aria-hidden="true">→</span></a>
+    </nav>
+    <div class="header__sp">
+      <a class="btn btn--cta btn--xs" href="#contact">相談について</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- 1. Hero -->
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="hero__meta">
+        <span class="hero__num">01</span>
+        <span>Precision Machining — 精密切削加工</span>
+      </p>
+
+      <div class="hero__copy">
+        <h1 class="hero__title" id="hero-title">図面の先まで、<br>共に考える。</h1>
+        <p class="hero__lead">精密切削加工から、試作・小ロット生産まで。<br>ものづくりの課題に向き合い、<br>一つひとつの可能性を形にします。</p>
+      </div>
+
+      <figure class="hero__figure">
+        <div class="hero__frame">
+          <img src="images/hero-drawing-to-part.svg" alt="" width="1000" height="1000" fetchpriority="high">
+          <span class="hero__label hero__label--l" aria-hidden="true">Drawing</span>
+          <span class="hero__label hero__label--r" aria-hidden="true">Part</span>
+        </div>
+        <figcaption>
+          <span class="fig">Fig. 01</span>図面から、かたちへ。
+          <em class="tag-asset">株式会社 汐見精工は、ポートフォリオ用の架空企業です。</em>
+        </figcaption>
+      </figure>
+
+      <div class="hero__cta">
+        <p class="hero__cta-text"><strong>試作・小ロットのご依頼も、</strong><br class="sp-only"><strong>仕様検討の段階からのご相談も。</strong></p>
+        <a class="btn btn--cta" href="#contact">ご相談について<span class="btn__arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <!-- 2. Strength -->
+    <section class="section section--alt" id="strength" aria-labelledby="strength-title">
+      <header class="sec-head">
+        <p class="sec-head__label"><span>02</span>Strength</p>
+        <h2 class="sec-head__title" id="strength-title">私たちの強み</h2>
+        <p class="sec-head__intro">少量の加工ほど、事前の仕様確認と、設計変更への対応が仕上がりを左右します。<br class="pc-only">汐見精工は、その二つに力を注いでいます。</p>
+      </header>
+
+      <div class="strength">
+        <article class="strength__item strength__item--main">
+          <p class="strength__no">01<span>中心となる強み</span></p>
+          <h3 class="strength__title">試作・小ロットへの<br>柔軟な対応</h3>
+          <p>開発段階の試作品や、少量だけ必要な部品の加工をお引き受けします。設計変更が重なりやすい試作でも、変更点を確認しながら加工を進めます。</p>
+        </article>
+        <article class="strength__item">
+          <p class="strength__no">02<span>それを支える強み</span></p>
+          <h3 class="strength__title">仕様検討段階からの<br>技術相談</h3>
+          <p>図面が固まる前でも、用途や課題をお聞きしたうえで、加工しやすい形状や材質の選び方を一緒に検討します。</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. Technology -->
+    <section class="section section--light" id="technology" aria-labelledby="technology-title">
+      <header class="sec-head">
+        <p class="sec-head__label"><span>03</span>Technology</p>
+        <h2 class="sec-head__title" id="technology-title">加工技術</h2>
+        <p class="sec-head__intro">主な加工方法と測定、ご相談いただける範囲の目安です。</p>
+      </header>
+
+      <ul class="methods">
+        <li class="method">
+          <p class="method__en">Turning</p>
+          <h3 class="method__title">旋削加工</h3>
+          <p>工作物を回転させ、刃物を当てて円筒形状や端面を削り出す加工です。</p>
+        </li>
+        <li class="method">
+          <p class="method__en">Milling</p>
+          <h3 class="method__title">フライス加工</h3>
+          <p>回転する工具と工作物を相対的に動かし、平面・溝・段差などを削り出す加工です。</p>
+        </li>
+        <li class="method">
+          <p class="method__en">Measurement</p>
+          <h3 class="method__title">寸法の測定</h3>
+          <p>三次元測定機を使い、加工品の寸法を確認します。</p>
+        </li>
+      </ul>
+
+      <div class="spec">
+        <div class="spec__head">
+          <h3 class="spec__title">ご相談いただける範囲（目安）</h3>
+        </div>
+        <dl class="spec__list">
+          <div class="spec__row">
+            <dt>材質</dt>
+            <dd>アルミ合金、ステンレス鋼、樹脂</dd>
+          </div>
+          <div class="spec__row">
+            <dt>数量</dt>
+            <dd>試作品から小ロットまで</dd>
+          </div>
+          <div class="spec__row">
+            <dt>お預かりする資料</dt>
+            <dd>2D図面、3Dデータ、手描きのスケッチ など</dd>
+          </div>
+        </dl>
+      </div>
+
+    </section>
+
+    <!-- 4. Works -->
+    <section class="section" id="works" aria-labelledby="works-title">
+      <header class="sec-head">
+        <p class="sec-head__label"><span>04</span>Works</p>
+        <h2 class="sec-head__title" id="works-title">加工事例</h2>
+        <p class="sec-head__intro"><strong class="tag-fiction">掲載している事例は、すべて架空のサンプルです。</strong></p>
+      </header>
+
+      <article class="case case--feature">
+        <div class="case__link">
+          <figure class="case__media">
+            <img src="images/case-03-jig.webp" width="1600" height="1000" loading="lazy" decoding="async"
+                 alt="白い樹脂製の位置決め治具。ワークの形に合わせたくぼみ、取り出し用の切り欠き、位置決めピン穴、四隅の取付穴があり、横に架空のワークが置かれている（CG）">
+            <figcaption class="cg-badge">CG｜架空の加工サンプル</figcaption>
+          </figure>
+          <div class="case__body">
+            <p class="case__meta">Case 03｜架空のサンプル</p>
+            <h3 class="case__title">図面のない状態から<br class="pc-only">相談を受けた、<br class="pc-only">検査用の位置決め治具</h3>
+            <p class="case__text">計測機器メーカー B社（架空）。用途の聞き取りから、ワークの置き方と取り出しやすさを考えた形状を一緒に検討しました。</p>
+            <ul class="case__tags"><li>仕様検討</li><li>樹脂</li><li>フライス加工</li></ul>
+          </div>
+        </div>
+      </article>
+
+      <ul class="cases cases--pair">
+        <li class="case">
+          <div class="case__link">
+            <figure class="case__media">
+              <img src="images/case-01-bracket.webp" width="1600" height="1000" loading="lazy" decoding="async"
+                   alt="アルミ合金のL字型ブラケット。底板に長穴が2本、立ち上がりに回転軸の穴と円弧状の長穴がある（CG）">
+              <figcaption class="cg-badge">CG｜架空の加工サンプル</figcaption>
+            </figure>
+            <p class="case__meta">Case 01｜架空のサンプル</p>
+            <h3 class="case__title">試作のたびに形状が変わる、センサー取付ブラケット</h3>
+            <p class="case__text">装置メーカー A社（架空）。設計変更のたびに、変更点を確認して加工しました。</p>
+            <ul class="case__tags"><li>試作</li><li>アルミ合金</li><li>フライス加工</li></ul>
+          </div>
+        </li>
+        <li class="case">
+          <div class="case__link">
+            <figure class="case__media">
+              <img src="images/case-02-shaft.webp" width="1600" height="1000" loading="lazy" decoding="async"
+                   alt="同じ形状のステンレス製段付きシャフトが4本並んでいる。端部のねじ、溝、キー溝、段差がある（CG）">
+              <figcaption class="cg-badge">CG｜架空の加工サンプル</figcaption>
+            </figure>
+            <p class="case__meta">Case 02｜架空のサンプル</p>
+            <h3 class="case__title">補修用に少量だけ必要になった、段付きシャフト</h3>
+            <p class="case__text">産業機械メーカー C社（架空）。補修に必要な数だけ加工しました。</p>
+            <ul class="case__tags"><li>小ロット</li><li>ステンレス鋼</li><li>旋削加工</li></ul>
+          </div>
+        </li>
+      </ul>
+
+    </section>
+
+    <aside class="mid-cta" aria-label="ご相談の案内">
+      <div class="mid-cta__inner">
+        <p class="mid-cta__text"><span class="mid-cta__lead">近い事例が見つからない場合も。</span>仕様検討の段階から、加工方法や材質を一緒に考えます。</p>
+        <a class="btn btn--cta" href="#contact">ご相談について<span class="btn__arrow" aria-hidden="true">→</span></a>
+      </div>
+    </aside>
+
+    <!-- 5. Quality & Equipment -->
+    <section class="section section--light" id="quality" aria-labelledby="quality-title">
+      <header class="sec-head">
+        <p class="sec-head__label"><span>05</span>Quality &amp; Equipment</p>
+        <h2 class="sec-head__title" id="quality-title">設備・品質管理</h2>
+        <p class="sec-head__intro">設備の種類と、品質を確かめる手順をご紹介します。</p>
+      </header>
+
+      <div class="qe">
+        <div class="qe__col">
+          <div class="qe__head">
+            <h3 class="qe__title">主な設備</h3>
+          </div>
+          <dl class="equip">
+            <div class="equip__group">
+              <dt>加工</dt>
+              <dd><ul><li>3軸マシニングセンタ</li><li>CNC旋盤</li></ul></dd>
+            </div>
+            <div class="equip__group">
+              <dt>測定</dt>
+              <dd><ul><li>三次元測定機</li></ul></dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="qe__col">
+          <div class="qe__head">
+            <h3 class="qe__title">品質を確かめる手順</h3>
+          </div>
+          <ol class="qflow">
+            <li><span class="qflow__no">1</span><div><p class="qflow__title">図面・仕様の確認</p><p>加工前に、寸法や指示事項をお客様と確認します。</p></div></li>
+            <li><span class="qflow__no">2</span><div><p class="qflow__title">工程内の確認</p><p>加工の途中で、要所の寸法を測定します。</p></div></li>
+            <li><span class="qflow__no">3</span><div><p class="qflow__title">出荷前の検査</p><p>加工品の確認・測定を行い、検査項目や記録の形式はご要望に応じて相談のうえ決定します。</p></div></li>
+          </ol>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- 6. Process -->
+    <section class="section" id="process" aria-labelledby="process-title">
+      <header class="sec-head">
+        <p class="sec-head__label"><span>06</span>Process</p>
+        <h2 class="sec-head__title" id="process-title">ご相談の流れ</h2>
+        <p class="sec-head__intro">はじめてのお取引でも、手順はシンプルです。<br>図面がなくてもご相談いただけます。</p>
+      </header>
+
+      <ol class="steps">
+        <li class="step">
+          <p class="step__no">Step 01</p>
+          <h3 class="step__title">ご相談</h3>
+          <p>フォームから、つくりたいものや課題をお知らせください。</p>
+        </li>
+        <li class="step">
+          <p class="step__no">Step 02</p>
+          <h3 class="step__title">ヒアリング・仕様の確認</h3>
+          <p>用途や使用環境をお聞きし、形状や材質を一緒に整理します。</p>
+        </li>
+        <li class="step">
+          <p class="step__no">Step 03</p>
+          <h3 class="step__title">お見積もり</h3>
+          <p>確認した仕様をもとに、費用と納期をご提示します。</p>
+        </li>
+        <li class="step">
+          <p class="step__no">Step 04</p>
+          <h3 class="step__title">加工・納品</h3>
+          <p>加工と検査を行い、完成品をお届けします。</p>
+        </li>
+      </ol>
+      <p class="steps__note">納期は加工内容や数量によって異なります。</p>
+
+    </section>
+
+    <!-- 7. Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__inner">
+        <div class="contact__main">
+          <p class="sec-head__label"><span>07</span>Contact</p>
+          <h2 class="contact__title" id="contact-title">技術相談・お見積もり</h2>
+          <p class="contact__lead">汐見精工は、試作・小ロットのお見積もりや、仕様検討の段階からのご相談を受け付ける設定の架空企業です。図面や技術情報の取り扱いについて、秘密保持契約（NDA）の相談に応じる設定としています。</p>
+          <p class="contact__demo">このサイトは架空企業を題材にした制作実績のため、実際のお問い合わせは受け付けていません。</p>
+        </div>
+        <div class="contact__aside">
+          <h3 class="contact__sub">あると話が早い情報<span>なくても大丈夫です</span></h3>
+          <ul class="checklist">
+            <li>用途・使用環境</li>
+            <li>材質のご希望</li>
+            <li>数量</li>
+            <li>ご希望の時期</li>
+            <li>図面・3Dデータ（お持ちの場合）</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 8. Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <p class="logo">
+          <span class="logo__mark" aria-hidden="true"></span>
+          <span class="logo__ja">汐見精工</span>
+          <span class="logo__en">SHIOMI SEIKO</span>
+        </p>
+        <dl class="footer__info">
+          <div><dt>社名</dt><dd>株式会社 汐見精工（架空・仮名）</dd></div>
+          <div><dt>事業</dt><dd>精密切削加工、試作・小ロット生産</dd></div>
+        </dl>
+      </div>
+      <nav class="footer__nav" aria-label="フッターナビゲーション">
+        <ul>
+          <li><a href="#top">TOP</a></li>
+          <li><a href="#technology">加工技術</a></li>
+          <li><a href="#works">加工事例</a></li>
+          <li><a href="#quality">設備・品質管理</a></li>
+        </ul>
+        <ul>
+          <li><a href="#process">はじめての方へ</a></li>
+          <li><a href="#contact">ご相談について</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>株式会社 汐見精工は、Web制作のポートフォリオ用に作成した架空の企業です。掲載内容は実在の企業・製品・事例とは関係ありません。</p>
+      <p class="footer__copy"><small>© 2026 SHIOMI SEIKO（架空企業）</small></p>
+    </div>
+  </footer>
+</body>
+</html>
